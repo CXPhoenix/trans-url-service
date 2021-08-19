@@ -99,6 +99,9 @@ function App() {
       <div className="flex justify-center">
         <Output context="你的轉換網址" value={getUrl} onClick={onClick} />
       </div>
+      <div className="fixed bottom-0 right-0 left-0 block bg-gray-300 font-bold text-center">
+        POWER BY VERCEL, BUILD BY FHSH IT DEPT.
+      </div>
     </>
   );
 }
